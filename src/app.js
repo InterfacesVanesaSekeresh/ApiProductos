@@ -38,6 +38,4 @@ app.get('/', (req, res) => {
   res.send('¡Hola mundo, desde Express!');
 });
 
-export default app.listen(PORT, () => {
-  console.log(`Servidor escuchando en el puerto: ${PORT}`);
-});
+export default app;

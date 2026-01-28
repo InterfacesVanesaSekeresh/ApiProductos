@@ -1,5 +1,11 @@
 import express from 'express';
 import Producto from "../../models/Producto.js";
+import mongoose from "mongoose";
+
+mongoose.connect(process.env.MONGODB_URI)
+  .then(() => console.log("MongoDB conectado correctamente"))
+  .catch(err => console.error("Error al conectar con MongoDB:", err));
+
 //import { productos } from '../../data/productos.js';
 // Al importar la variable es de solo lectura. No se puede exportar una variable let, ha de ser const.
 //let productos = [];

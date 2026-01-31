@@ -75,21 +75,3 @@ productRouter.delete("/:productoId", async (req, res) => {
 
 export default productRouter;
 
-
-// Insertar todos los patos de ejemplo
-productRouter.post("/seed", async (req, res) => {
-  try {
-    await Producto.deleteMany(); // Limpia la colección
-    const insertados = await Producto.insertMany(ducklyns);
-
-    res.status(201).json({
-      message: "Patos insertados correctamente",
-      data: insertados
-    });
-  } catch (error) {
-    res.status(500).json({
-      message: "Error al insertar los patos",
-      error
-    });
-  }
-});

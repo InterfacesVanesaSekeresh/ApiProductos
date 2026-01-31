@@ -6,15 +6,17 @@ export const productos = [
     description: "El pato de goma tradicional, amarillo y simpático.",
     price: 2.00,
     category: "Clásico",
-    photo: "https://m.media-amazon.com/images/I/41yvxsHIJ6L._AC_UF1000,1000_QL80_.jpg"
-  },
+    photo: "https://m.media-amazon.com/images/I/41yvxsHIJ6L._AC_UF1000,1000_QL80_.jpg",
+    details: "Es de plástico BBH"
+},
   {
     id: 2,
     name: "Pato Surfista",
     description: "Listo para las olas con su tabla de surf y actitud relajada.",
     price: 2.99,
     category: "Deportivo",
-    photo: "https://www.duckshop.de/media/image/c2/02/50/Quietscheentchen_Surfer_106532856_600x600.jpg"
+    photo: "https://www.duckshop.de/media/image/c2/02/50/Quietscheentchen_Surfer_106532856_600x600.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 3,
@@ -22,7 +24,8 @@ export const productos = [
     description: "Con casco y camiseta, preparado para el contacto en el campo.",
     price: 2.99,
     category: "Deportivo",
-    photo: "https://www.paturros.es/wp-content/uploads/2024/04/comprar-patito-goma-rugby.jpg"
+    photo: "https://www.paturros.es/wp-content/uploads/2024/04/comprar-patito-goma-rugby.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 4,
@@ -30,7 +33,8 @@ export const productos = [
     description: "Con gorra y bate, este pato está listo para el home run.",
     price: 2.99,
     category: "Deportivo",
-    photo: "https://www.qualitylogoproducts.com/toys/baseball-duck-hq.jpg"
+    photo: "https://www.qualitylogoproducts.com/toys/baseball-duck-hq.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 5,
@@ -38,7 +42,8 @@ export const productos = [
     description: "Guantes puestos y mirada feroz, el campeón del ring.",
     price: 2.99,
     category: "Deportivo",
-    photo: "https://canarddebain.com/cdn/shop/files/CanardBoxeur-Schnabels.jpg?v=1750354861"
+    photo: "https://canarddebain.com/cdn/shop/files/CanardBoxeur-Schnabels.jpg?v=1750354861",
+    details: "Es de plástico BBH"
   },
   {
     id: 6,
@@ -46,7 +51,8 @@ export const productos = [
     description: "Verde y con cicatrices, el pato más monstruosamente divertido.",
     price: 2.99,
     category: "Fantástico",
-    photo: "https://www.paturros.es/wp-content/uploads/2021/01/pato-goma-frankenstein.jpg"
+    photo: "https://www.paturros.es/wp-content/uploads/2021/01/pato-goma-frankenstein.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 7,
@@ -54,7 +60,8 @@ export const productos = [
     description: "Con parche en el ojo y sombrero, este pato surca las bañeras como los siete mares.",
     price: 3.50,
     category: "Aventurero",
-    photo: "https://www.paturros.es/wp-content/uploads/2021/06/patito-goma-pirata.jpg"
+    photo: "https://www.paturros.es/wp-content/uploads/2021/06/patito-goma-pirata.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 8,
@@ -62,7 +69,8 @@ export const productos = [
     description: "Color pastel y cuerno mágico, el pato más fantástico para soñar en la bañera.",
     price: 3.99,
     category: "Fantástico",
-    photo: "https://www.paturros.es/wp-content/uploads/2021/09/comprar-patito-goma-unicornio-xxl-rosa.jpg"
+    photo: "https://www.paturros.es/wp-content/uploads/2021/09/comprar-patito-goma-unicornio-xxl-rosa.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 9,
@@ -70,7 +78,8 @@ export const productos = [
     description: "Con bata blanca y estetoscopio, cuida de todos en la bañera.",
     price: 3.20,
     category: "Profesiones",
-    photo: "https://www.paturros.es/wp-content/uploads/2021/06/comprar-patito-goma-doctor.jpg"
+    photo: "https://www.paturros.es/wp-content/uploads/2021/06/comprar-patito-goma-doctor.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 10,
@@ -78,7 +87,8 @@ export const productos = [
     description: "Sombrero de cocinero y campana en mano, listo para preparar comida.",
     price: 3.20,
     category: "Profesiones",
-    photo: "https://www.paturros.es/wp-content/uploads/2021/01/pato-goma-chef.jpg"
+    photo: "https://www.paturros.es/wp-content/uploads/2021/01/pato-goma-chef.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 11,
@@ -86,7 +96,8 @@ export const productos = [
     description: "Con gorra azul y silbato, mantiene el orden en la bañera.",
     price: 3.20,
     category: "Profesiones",
-    photo: "https://www.paturros.es/wp-content/uploads/2021/01/pato-goma-policia.jpg"
+    photo: "https://www.paturros.es/wp-content/uploads/2021/01/pato-goma-policia.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 12,
@@ -94,7 +105,8 @@ export const productos = [
     description: "Con casco rojo y manguera, apaga incendios de espuma.",
     price: 3.20,
     category: "Profesiones",
-    photo: "https://www.paturros.es/wp-content/uploads/2021/01/pato-goma-bombero.jpg"
+    photo: "https://www.paturros.es/wp-content/uploads/2021/01/pato-goma-bombero.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 13,
@@ -118,7 +130,8 @@ export const productos = [
     description: "Con casco espacial, explora galaxias de burbujas.",
     price: 4.20,
     category: "Aventurero",
-    photo: "https://www.paturros.es/wp-content/uploads/2022/02/pato-goma-astronauta.jpg"
+    photo: "https://www.paturros.es/wp-content/uploads/2022/02/pato-goma-astronauta.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 16,
@@ -158,7 +171,8 @@ export const productos = [
     description: "Diseño de huesos blancos sobre fondo negro, ideal para Halloween.",
     price: 3.50,
     category: "Fantástico",
-    photo: "https://www.paturros.es/wp-content/uploads/2022/11/pato-goma-esqueleto.jpg"
+    photo: "https://www.paturros.es/wp-content/uploads/2022/11/pato-goma-esqueleto.jpg",
+    details: "Es de plástico BBH"
   },
   {
     id: 21,
@@ -190,6 +204,7 @@ export const productos = [
     description: "Con sombrero de bruja y calabaza, el más espeluznante del baño.",
     price: 3.99,
     category: "Temporada",
-    photo: "https://www.duckstore.es/2840-home_default/bruja-latex.jpg"
+    photo: "https://www.duckstore.es/2840-home_default/bruja-latex.jpg",
+    details: "Es de plástico BBH"
   }
 ];

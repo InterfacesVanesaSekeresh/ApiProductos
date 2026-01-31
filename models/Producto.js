@@ -6,6 +6,7 @@ const productoSchema = new mongoose.Schema({
   price: { type: Number, required: true },
   category: { type: String, required: true },
   photo: { type: String, required: false },
+  details: { type: String, required: false } 
 }, {
   timestamps: true
 });

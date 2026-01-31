@@ -52,6 +52,8 @@ async function inicializarBD() {
     console.error("Error al insertar patos de ejemplo:", error);
   }
 }
+
+
 inicializarBD();
 
 export default app;

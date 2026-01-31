@@ -4,8 +4,8 @@ import cors from "cors"; // Asegúrate de importar cors
 import bodyParser from "body-parser";
 import productosRoutes from "./routes/productos.js";
 
-import { productos as productosMock } from "./data/productos.js";
-import Producto from "./models/Producto.js";
+import { productos as productosMock } from "../data/productos.js";
+import Producto from "../models/Producto.js";
 
 const app = express();
 //const PORT = 3000;

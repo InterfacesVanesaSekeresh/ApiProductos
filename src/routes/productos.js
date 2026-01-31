@@ -1,6 +1,7 @@
 import express from 'express';
 import Producto from "../../models/Producto.js";
 import mongoose from "mongoose";
+import ducklyns from "../../data/patos.js"; // Datos de ejemplo
 
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log("MongoDB conectado correctamente"))
@@ -73,3 +74,22 @@ productRouter.delete("/:productoId", async (req, res) => {
 });
 
 export default productRouter;
+
+
+// Insertar todos los patos de ejemplo
+productRouter.post("/seed", async (req, res) => {
+  try {
+    await Producto.deleteMany(); // Limpia la colección
+    const insertados = await Producto.insertMany(ducklyns);
+
+    res.status(201).json({
+      message: "Patos insertados correctamente",
+      data: insertados
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "Error al insertar los patos",
+      error
+    });
+  }
+});

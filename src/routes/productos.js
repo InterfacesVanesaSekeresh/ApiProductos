@@ -1,7 +1,6 @@
 import express from 'express';
 import Producto from "../../models/Producto.js";
 import mongoose from "mongoose";
-import ducklyns from "../../data/patos.js"; // Datos de ejemplo
 
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log("MongoDB conectado correctamente"))
